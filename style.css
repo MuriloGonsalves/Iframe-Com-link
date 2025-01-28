@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    background-color: #006e9c ;
+    font-family: "Anton", serif;
+}
+.titulos{
+    display: flex;
+    margin: 0 60vh;
+    font-size: 2em;
+}
+.titulo1{
+    color: #add8e6 ;
+    padding-right: 10px;
+}
+.titulo2{
+    color: #eaffff;
+}
+p{
+    font-size:1.7em;
+    font-weight: bold;
+    color: #eaffff;
+    margin-left: 50px;
+}
+.conteudo{
+    display: flex;
+}
+li{
+    background-color: #eaffff;
+    margin: 1vw 35vw 5vw 1vw;
+    list-style-type: none;  
+    padding: 3px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px rgb(255, 255, 255);
+}
+a{
+    color: #78c6e0;
+    text-decoration: none;
+    transition: 1s;
+    
+}
+a:hover{
+    background-color: #eaffff;
+    color: #006e9c;
+    box-shadow: 0px 0px 15px rgb(255, 255, 255);
+    transition: 0.5s;
+}
+iframe{
+    
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+     
+}
+
